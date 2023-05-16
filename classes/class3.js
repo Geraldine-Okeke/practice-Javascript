@@ -26,12 +26,15 @@ let camry = new Cars(4,2000,"manual",50)
 console.log(camry)
 camry.old()
 class Mercedes extends Cars {
+  //when inputing the arguments in d constructor, input the main proprties of mercedez first before the inherited ones
   constructor(color,isHigh,tyres,year,transmission,mileage){
+    // with the super() it inherited the properties of the parent
     super(tyres,year,transmission,mileage)
     this.color = color
     this.isHigh = isHigh
   }
   new(){
+    //with the super function it inherited the old() of the parent class
     super.old()
     console.log('done')
   }
