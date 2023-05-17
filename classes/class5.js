@@ -1,6 +1,6 @@
 //this code explains the use of default parameters
 function sub(num){
-  return num + num
+  return num -  num
 }
 let fun = sub()
 console.log("the result is", fun)
