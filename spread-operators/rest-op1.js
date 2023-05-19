@@ -7,7 +7,8 @@ rest(...states)//spread operator was used here
 
 //another example
 let fruits = ["Bannana","mango","apple","grape","cherry"]
-function pick(...a){
+function pick(...a)//rest operator was used her to pack
+{
   console.log(`pick ${a}`)
 }
-pick(...fruits)
+pick(...fruits)//spread operator was used her to unpack
