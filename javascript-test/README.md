@@ -4,7 +4,7 @@ Javascript testing with jest
 i started by checking if nodeand npm s installed in my system with node --v and npm --v
 
 
-since i have it installed . i created a file called addFive.json,the wrote an addFive(). after the function. i exported the module with 'module.export = addFive'
+since i have it installed . i created a file called addFive.json,the wrote an addFive(). after the function. i exported the module with 'module.exports = addFive'
 
 
 then i entered this in my termnal :  'npm init -y', this created a package.json file in my folder,then i navigated into d file and changed the value for the 'test'key to 'jest'
