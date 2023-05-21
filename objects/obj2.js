@@ -17,7 +17,7 @@ const animal = {
   
   bird.canFly = true;
   
-  bird.hasFeathers = true;
+  /*bird.hasFeathers = true;
   function birdCan(){
     for(i of Object.keys(bird)){
       console.log(i + ": "+ bird[i])
@@ -30,3 +30,18 @@ const animal = {
     }
   }
   animalCan()
+  */
+ function num(n){
+  if (typeof(n) === "number"){
+    console.log("this is a num")
+  }
+  else if (typeof(n)=== "string"){
+    console.log("a string")
+  }
+  else{
+    console.log("none")
+  }
+ }
+ let n = num(6)
+ console.log(n)
+ 

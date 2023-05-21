@@ -37,7 +37,7 @@ function intern(){
   intern.goToWork()
   return intern
 }
-intern(0,10,"bb",21,110)
+intern()
 function manager(){
   let manager = new Worker(100,30,"Alice",30,120)
   manager.doSomethingFun()
