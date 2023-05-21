@@ -72,6 +72,3 @@ getDiscount(false, 10)
 getDiscount(true,50)
 
 
-var car = { mileage: 200 }
-var carMileage = 100
-console.log(car.mileage)
