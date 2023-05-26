@@ -1,0 +1,21 @@
+body{
+  background-image: url(blackjack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+  font-weight: bolder;
+  text-align: center;
+
+}
+h1{
+  color: darkorange;
+  font-size: 100px
+}
+button{
+  background-color: yellow;
+  color: green;
+  font-weight: bold;
+  height: 120px;
+  width: 200px;
+  border-radius: 10%;
+}

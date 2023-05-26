@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+ .main{
+  display: flex;
+  flex-direction: column;
+ }
+ span{
+  margin-right: 20px;
+  text-align: center;
+ }
+ button{
+  background-color: green;
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+ }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div id="span-div">
+      <span id="num-one"></span>
+      <span id="num-two"></span>
+    </div>
+    
+    <button onclick="addition()">ADD</button>
+    <button onclick="substraction()">SUB</button>
+    <button onclick="division()">DIV</button>
+    <button onclick="multiply()">MULT</button>
+    <span id="res-el">Result: </span>
+  </div>
+
+  <script src="browser4.js"></script>
+  
+</body>
+</html>

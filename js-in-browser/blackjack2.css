@@ -1,0 +1,21 @@
+body{
+  background-color: darkgreen;
+  color: yellow;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+
+}
+p{
+  font-size: larger;
+  margin-top: 100px;
+}
+button{
+  background-color: yellow;
+  color: green;
+  width: 250px;
+  height: 100px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  
+}
