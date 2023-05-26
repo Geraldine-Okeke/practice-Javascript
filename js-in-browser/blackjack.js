@@ -3,19 +3,10 @@ let cardEl = document.getElementById("card-el")
 let sumEl = document.getElementById("sum-el")
 isAlive = false
 hasBlackJack = false
-//lets create a function that will generate a random number between 2 -11
+//lets create a function that will generate a random number between 2 -13
 function getRandom(){
   let random = Math.floor(Math.random()*13) + 2
-  if(random >10){
-    return 11
-  }
-  else if(random === 1){
-    return 10
-  }
-  else{
-    return random
-  }
-  
+  return random
 }
 let firstCd = getRandom()
 let allCards = [firstCd]
