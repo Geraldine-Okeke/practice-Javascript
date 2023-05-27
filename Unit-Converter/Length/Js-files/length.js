@@ -2,7 +2,7 @@ let inpEl = document.getElementById("inp-el")
 let ansEl = document.getElementById("ans-el")
 let val =""
 function mmToCm(){
-  let cm =inpEl.value / 10
+  val =inpEl.value / 10
   ansEl.textContent = cm
 }
 
