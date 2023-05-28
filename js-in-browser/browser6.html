@@ -7,16 +7,39 @@
   <title>Document</title>
 </head>
 <body>
-  <label for="inp-el">kilometer</label>
+  <label for="sel-el">Measurements</label>
   <input id="inp-el" type="number">
-  <button onclick="kmToM()">Conert to meters</button>
-  <span id="ans-el" ></span>
+  <select name="" id="sel-el" >
+    <option  id="inp-one" value="meter">Meter</option>
+    <option id="inp-two" value="kilometer">Kilometer</option>
+    <option value="centimeter">Centimeter</option>
+  </select>
+  <button onclick="clickMe()">convert</button>
+  <button onclick="clearMe()">Clear</button>
+  <select name="" id="sel2-el">
+    <option value="km">km</option>
+    <option value="cm">centimeter</option>
+    <option value="mtr">meter</option>
+  </select>
+  <p id="ans-el"></p>
   <script>
-    let inpEl = document.getElementById("inp-el")
-    let ansEl = document.getElementById("ans-el")
-    function kmToM(){
-      let met = inpEl.value * 1000
-      ansEl.textContent = met
+    
+   let  inpEl = document.getElementById("inp-el")
+   let ansEl =document.getElementById("ans-el")
+   function clickMe(){
+    let val = document.getElementById("sel-el").value
+    let vall = document.getElementById("sel2-el").value
+    let ans =""
+    if (val === "kilometer" && vall === "cm"){
+      ans = inpEl.value * 1000
+      ansEl.textContent = ans
+    }
+
+   }
+   
+    function clearMe(){
+      ansEl.textContent = ""
+      inpEl.value = ""
     }
   </script>
 </body>

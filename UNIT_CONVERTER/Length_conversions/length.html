@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="length.css">
+</head>
+<body>
+  <input id="inp-el" oninput="convertLen()" type="text"><br>
+  <label for="sel-one">From</label>
+  <select onchange="convertLen()" name="" id="sel-one">
+    <option value="kilometer">Kilometer</option>
+    <option value="meter">Meter</option>
+    <option value="mile">Mile</option>
+    <option value="nanometer">Nanometer</option>
+    <option value="centimeter">Centimeter</option>
+    <option value="millimeter">Millimeter</option>
+    <option value="micrometer">Micrometer</option>
+    <option value="inch">Inch</option>
+    <option value="foot">Foot</option>
+    <option value="yard">Yard</option>
+    <option value="decimeter">Decimeter</option>
+    <option value="decameter">Decameter</option>
+  </select>
+  
+  
+  <br>
+
+  <label for="sel-two">To</label>
+  <select onchange="convertLen()" name="" id="sel-two">
+    <option value="km">Kilometer</option>
+    <option value="m">Meter</option>
+    <option value="mi">Mile</option>
+    <option value="nm">Nanometer</option>
+    <option value="cm">Centimeter</option>
+    <option value="mlm">Millimeter</option>
+    <option value="mcm">Micrometer</option>
+    <option value="in">Inch</option>
+    <option value="ft">Foot</option>
+    <option value="yd">Yard</option>
+    <option value="dem">Decimeter</option>
+    <option value="dam">Decameter</option>
+  </select><br>
+  <p id="ans-el"></p>
+  <button onclick="clearMe()" id="cl">Clear</button>
+  <script src="length.js"></script>
+</body>
+</html>

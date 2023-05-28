@@ -1,0 +1,25 @@
+body{
+  background: linear-gradient( to right,green,yellow,red);;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  color: darkmagenta
+}
+li{
+  color: beige;
+  font-size: 20px;
+}
+button{
+  margin-top: 10px;
+  height: 40px;
+  width: 150px;
+  border: 5px,gray,dotted;
+  background-color: brown;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 10%;
+}
