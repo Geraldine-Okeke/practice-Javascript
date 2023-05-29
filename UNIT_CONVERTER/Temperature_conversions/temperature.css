@@ -1,6 +1,5 @@
 body{
-  background-image: url(length.png);
-  background-size: cover;
+  background-image: url();
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
@@ -48,8 +47,4 @@ p{
   font-size: 20px;
   font-family: sans-serif;
   font-weight: bold;
-}
-label{
-  color: wheat;
-  font-size: 25px;
 }

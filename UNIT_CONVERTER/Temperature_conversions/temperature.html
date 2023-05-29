@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="temperature.css">
+</head>
+<body>
+  <input id="inp-el" oninput="convertTemp()" type="text"><br>
+  <label for="sel-one">From</label>
+  <select onchange="convertTemp()" name="" id="sel-one">
+    <option value="celsius">Celsius</option>
+    <option value="fahrenheit">Fahrenheit</option>
+    <option value="kelvin">Kelvin</option>
+    
+  </select>
+  
+  
+  <br>
+
+  <label for="sel-two">To</label>
+  <select onchange="convertTemp()" name="" id="sel-two">
+    <option value="cl">Celsius</option>
+    <option value="fh">Fahrenheit</option>
+    <option value="ke">Kelvin</option>
+    
+  </select><br>
+  <p id="ans-el"></p>
+  <button onclick="clearMe()" id="cl">Clear</button>
+  <script src="temperature.js"></script>
+</body>
+</html>

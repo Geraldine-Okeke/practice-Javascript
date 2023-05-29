@@ -1,5 +1,6 @@
 body{
-  background: linear-gradient( to right,green,yellow,red);;
+  background-image: url(main.png);
+  background-size: cover;
   font-weight: bold;
   font-family: sans-serif;
   text-align: center;
@@ -13,13 +14,13 @@ li{
 }
 button{
   margin-top: 10px;
-  height: 40px;
-  width: 150px;
+  height: 60px;
+  width: 200px;
   border: 5px,gray,dotted;
   background-color: brown;
   color: aliceblue;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   border-radius: 10%;
 }
